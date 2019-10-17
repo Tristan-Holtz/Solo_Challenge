@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Open+Sans&display=swap');
+
+* {
+	margin: auto;
+	font-family: Open Sans, sans-serif;
+}
+
+
+h1 {
+	font-family: Anton;
+	text-transform: lowercase;
+	letter-spacing: 1.5px;
+	font-size: 50px;
+	margin: 15px auto;
+	color: #ed6fe5;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	background-color: #adf7d8;
+	border-radius: 5px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+input[type = "text"] {
+	width: 40%;
+	height: 30px;
+	margin-top: 0;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid #ebebeb;
+}
+
+input[type = "submit"] {
+	width: 175px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	border: 1px solid #ebebeb;
+	font-family: Baloo;
+	text-transform: uppercase;
+	background-color: #ed6fe5;
+	color: white;
+	border: transparent;
+	cursor: pointer;
+}
+
+textarea {
+	width: 50%;
+	font-size: 20px;
+	margin: 10px auto;
+	border-radius: 5px;
+	padding-left: 10px;
+	border: 1px solid #ebebeb;
+}
+
+section {
+	margin: auto;
+}
+
+.new-snack {
+	border: 2px solid #ed6fe5;
+  display: flex;
+  flex-direction: column;
+  background-color: #adf7d8;
+  margin: 10px;
+}
+
+.grocery-list {
+  display: flex;
+  align-items: center;
+}
+
+.input-color {
+  background-color: transparent;
+  border: 0px;
+}
